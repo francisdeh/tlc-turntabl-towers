@@ -40,5 +40,7 @@ namespace TurntablTowers
             get => _residentName;
             set => _residentName = value;
         }
+
+        public abstract void RingBell();
     }
 }
