@@ -19,7 +19,7 @@ namespace TurntablTowers
 
         //event handler
         public InterComEventHandler OnRinged;
-        // public EventHandler OnRinged;
+        
 
         protected Apartment(string floorNumber, string apartmentNumber, string residentName)
         {
@@ -32,11 +32,6 @@ namespace TurntablTowers
         public void CallTower()
         {
             Random random = new Random();
-            Thread.Sleep(5000);
-            // int randomNumber = random.Next(_mesages.Length - 1);
-            // Console.WriteLine($"Random number {randomNumber}");
-            // string message = _mesages[randomNumber];
-            // OnRinged?.Invoke(_residentName, message);
             OnRinged?.Invoke(_residentName, _mesages[random.Next(_mesages.Length - 1)]);
         }
 

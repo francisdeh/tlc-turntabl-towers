@@ -17,17 +17,7 @@ namespace TurntablTowers
         
             // Specify the data source.
             // int[] scores = new int[] { 97, 92, 81, 60 };
-            
-            // List<int> above80 = new List<int>();
-            //
-            // foreach (int score in scores)
-            // {
-            //     if (score > 80)
-            //     {
-            //         above80.Add(score);
-            //     }
-            // }
-            
+
             // IEnumerable<int> above80 =  from score in scores where score > 80 select score;
             //
             // foreach (var i in above80)
