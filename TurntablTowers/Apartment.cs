@@ -1,20 +1,25 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using System.Threading;
 
 namespace TurntablTowers
 {
+    
     //delegate method
     public delegate void InterComEventHandler(string nameOfResident, string? message);
 
     public abstract class Apartment
     {
-        private string _floorNumber;
-        private string _doorNumber;
-        private string _apartmentNumber;
-        private string _residentName;
+        private string _floorNumber; //2
+        private string _doorNumber; //204
+        private string _apartmentNumber;//04
+        private string _residentName; // Jane
+        
+        private string[] _mesages = new string[] {"Door is broken", "I need a plumber", "Cant find washroom", "Windows cant open", "I need your help"};
 
         //event handler
         public InterComEventHandler OnRinged;
+        // public EventHandler OnRinged;
 
         protected Apartment(string floorNumber, string apartmentNumber, string residentName)
         {
@@ -24,14 +29,15 @@ namespace TurntablTowers
             _doorNumber = floorNumber + apartmentNumber;
         }
 
-        public void Ring()
+        public void CallTower()
         {
+            Random random = new Random();
             Thread.Sleep(5000);
-
-            if (OnRinged != null)
-            {
-                OnRinged(_residentName, "I cant open the window");
-            }
+            // int randomNumber = random.Next(_mesages.Length - 1);
+            // Console.WriteLine($"Random number {randomNumber}");
+            // string message = _mesages[randomNumber];
+            // OnRinged?.Invoke(_residentName, message);
+            OnRinged?.Invoke(_residentName, _mesages[random.Next(_mesages.Length - 1)]);
         }
 
         public string FloorNumber

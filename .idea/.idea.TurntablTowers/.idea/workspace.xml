@@ -17,10 +17,10 @@
         <option value="$PROJECT_DIR$/TurntablTowers/NobodyHomeException.cs" />
         <option value="$PROJECT_DIR$/TurntablTowers/IRingBell.cs" />
         <option value="$PROJECT_DIR$/TurntablTowers/GrandApartment.cs" />
-        <option value="$PROJECT_DIR$/TurntablTowers/SilverApartment.cs" />
         <option value="$PROJECT_DIR$/TurntablTowers/BasicApartment.cs" />
-        <option value="$PROJECT_DIR$/TurntablTowers/TurntablTower.cs" />
+        <option value="$PROJECT_DIR$/TurntablTowers/SilverApartment.cs" />
         <option value="$PROJECT_DIR$/TurntablTowers/Apartment.cs" />
+        <option value="$PROJECT_DIR$/TurntablTowers/TurntablTower.cs" />
         <option value="$PROJECT_DIR$/TurntablTowers/Program.cs" />
       </list>
     </option>
@@ -82,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602771037212</updated>
-      <workItem from="1602771056460" duration="12819000" />
+      <workItem from="1602771056460" duration="22339000" />
     </task>
     <servers />
   </component>
@@ -95,26 +95,30 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="399" key="GridCell.Tab.0.bottom" timestamp="1602848404606">
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1602866094595">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="399" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1602848404606" />
-    <state width="1877" height="399" key="GridCell.Tab.0.center" timestamp="1602848404606">
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1602866094595" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1602866094594">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="399" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1602848404606" />
-    <state width="1877" height="399" key="GridCell.Tab.0.left" timestamp="1602848404605">
+    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1602866094594" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1602866094594">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="399" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1602848404605" />
-    <state width="1877" height="399" key="GridCell.Tab.0.right" timestamp="1602848404606">
+    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1602866094594" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1602866094594">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="399" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1602848404606" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1602866094594" />
     <state x="2036" y="217" key="RiderGenerateDialog" timestamp="1602780936452">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="2036" y="217" key="RiderGenerateDialog/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1602780936452" />
+    <state x="1982" y="250" key="run.anything.popup" timestamp="1602865209180">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1982" y="250" key="run.anything.popup/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1602865209180" />
     <state x="1989" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1602846973723">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>

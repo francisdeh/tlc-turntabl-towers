@@ -14,7 +14,6 @@ namespace TurntablTowers
             //80 %
             Random random = new Random();
             int randomNumber = random.Next(100);
-            Console.WriteLine($"Random number {randomNumber}");
 
             if (randomNumber >= 20)
             {

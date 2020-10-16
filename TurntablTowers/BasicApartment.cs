@@ -14,9 +14,8 @@ namespace TurntablTowers
             //10%
             Random random = new Random();
             int randomNumber = random.Next(100);
-            Console.WriteLine($"Random number {randomNumber}");
 
-            
+
             if (randomNumber <= 10)
             {
                 Console.WriteLine($"{ResidentName} is home.");
