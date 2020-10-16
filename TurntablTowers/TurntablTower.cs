@@ -23,5 +23,10 @@ namespace TurntablTowers
             _apartments.ForEach(apartment =>
                 apartment.RingBell());
         }
+
+        public static void OnRing(string nameOfResident, string? message)
+        {
+            Console.WriteLine($"{nameOfResident} says {message}");
+        }
     }
 }

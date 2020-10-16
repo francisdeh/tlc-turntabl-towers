@@ -1,7 +1,11 @@
 ﻿using System.Linq;
+using System.Threading;
 
 namespace TurntablTowers
 {
+    //delegate method
+    public delegate void InterComEventHandler(string nameOfResident, string? message);
+
     public abstract class Apartment
     {
         private string _floorNumber;
@@ -9,12 +13,25 @@ namespace TurntablTowers
         private string _apartmentNumber;
         private string _residentName;
 
+        //event handler
+        public InterComEventHandler OnRinged;
+
         protected Apartment(string floorNumber, string apartmentNumber, string residentName)
         {
             _floorNumber = floorNumber;
             _apartmentNumber = apartmentNumber;
             _residentName = residentName;
             _doorNumber = floorNumber + apartmentNumber;
+        }
+
+        public void Ring()
+        {
+            Thread.Sleep(5000);
+
+            if (OnRinged != null)
+            {
+                OnRinged(_residentName, "I cant open the window");
+            }
         }
 
         public string FloorNumber
